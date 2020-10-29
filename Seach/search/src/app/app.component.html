@@ -1,0 +1,8 @@
+<h1>Search Engine</h1>
+<input type="text" id="searchKey">
+<input type="button" text="Search" (click)="onSubmit()">
+<div *ngFor="let itemOfList of list">
+<ul>
+<li>{{itemOfList}}</li>
+</ul>
+</div>
